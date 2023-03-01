@@ -1,0 +1,93 @@
+/* Import Google font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Squada+One&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background:#ffce49;
+    min-height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator{
+    background: #2b2b2b;
+    width: 300px;
+    height: 500px;
+    border-radius: 40px;
+    overflow: hidden;
+    padding: 15px;
+    
+}
+
+.screen{
+    width: 100%;
+    height: 150px;
+    background: #ededed;
+    border-radius: 40px;
+    font-size: 2rem;
+    padding: 1rem;
+    text-align: right;
+    font-weight: bolder;
+    pointer-events: none;
+    border: 0;
+    
+}
+
+.btns-container{
+    margin-top: 25px;
+    background: #474747;
+    width: 100%;
+    height: 290px;
+    border-radius: 40px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+.btns{
+    width: 50px;
+    height:52px;
+    background: #4f4f4f;
+    border-radius: 10px;
+    border: 0;
+    color: #ededed;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    
+    
+}
+
+.btn-1{
+    border-radius: 30px 10px 10px;
+}
+
+.multiply{
+    padding-top: 7px;
+    border-radius: 10px 30px 10px 10px;
+}
+
+.add{
+    border-radius: 10px 10px 30px 10px;
+}
+
+.clear{
+    width: 110px;
+    border-radius: 10px 10px 10px 30px;
+    background: #d31313;
+}
+
+.equal{
+    background: #00A36C;
+}
