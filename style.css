@@ -40,7 +40,7 @@ body{
     
 }
 
-.btns-container{
+.keypad{
     margin-top: 25px;
     background: #474747;
     width: 100%;
@@ -67,6 +67,10 @@ body{
     cursor: pointer;
     
     
+}
+
+.btns:active{
+    transform: scale(0.95);
 }
 
 .btn-1{
